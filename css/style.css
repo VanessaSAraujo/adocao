@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+* {
+  font-family: "Signika Negative", system-ui;
+  font-weight: 500;
+}
+
+:root,
+[data-bs-theme=light] {
+    --bs-body-bg: var(--color-primary-light);
+}
+
+[data-bs-theme=dark] {
+    color-scheme: dark;
+    --bs-body-bg: var(--color-primary-dark);
+}
+
+nav {
+  background-color: var(--color-green-dark) !important;
+  font-size: 1.2rem;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.nav-link {
+  color: var(--color-secundary-light) !important;
+}
+
+.form-control {
+  border-radius: 1rem;
+  width: 15rem;
+}
+
+.btn-light {
+  border-radius: 1.5rem;
+  color: var(--color-brown);
+}
+
+.btn-bd-primary {
+  --bd-green-bg: #a3d9a5;
+  --bd-green-rgb: 163, 217, 165;
+  
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--color-secundary-light);
+  --bs-btn-bg: var(--bd-green-bg);
+  --bs-btn-border-color: var(--bd-green-bg);
+  --bs-btn-hover-color: var(--color-secundary-light);
+  --bs-btn-hover-bg: #8dcf91;
+  --bs-btn-hover-border-color: #8dcf91;
+  --bs-btn-focus-shadow-rgb: var(--bd-green-rgb);
+  --bs-btn-active-color: var(--color-secundary-light);
+  --bs-btn-active-bg: #79c47d;
+  --bs-btn-active-border-color: #79c47d;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+  
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+.fw-normal {
+  color: var(--color-green-dark) ;
+}
+
+.col-lg-4 p {
+  color: var(--color-green-secundary);
+}
+
+.btn-secondary {
+  border: none;
+  border-radius: 2rem;
+  background-color: var(--color-green-dark);
+}
+  
+a {
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+.text-body-secondary {
+  --bs-text-opacity: 3;
+  color: var(--color-green) !important;
+}
+
+.featurette-heading {
+  --bs-text-opacity: 1;
+  color: var(--color-green-dark);
+}
+
+.lead {
+  color: var(--color-green-dark);
+}
+
+.theme-icon-active {
+  fill: var(--color-white);
+}
