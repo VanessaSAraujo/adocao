@@ -99,3 +99,13 @@ a {
 .theme-icon-active {
   fill: var(--color-white);
 }
+
+.img-footer {
+  display: block;
+  margin: 0 auto;
+  transform: translateY(-10rem);
+}
+
+.wave {
+  transform: translateY(8rem);
+}
